@@ -1,4 +1,4 @@
-.board {
+.machine {
   display: grid;
   grid-template-columns: repeat(4, auto);
   width: 420px;
@@ -21,4 +21,6 @@ section {
   cursor: pointer;
   line-height: 100px;
   font-size: 60px;
+  transform-style: preserve-3d;
 }
+
