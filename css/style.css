@@ -5,6 +5,8 @@
   margin: 20px auto;
   background-color: #11213a;
   color: #04c0b2;
+  border-radius: 30px;
+  transform: rotateX(360deg);
 }
 
 section {
@@ -16,11 +18,13 @@ section {
   font-family: "Permanent Marker", cursive;
   width: 100px;
   height: 100px;
-  box-shadow: 2px 2px 2px 2px #ecd7ba;
-  border: 2px solid #ecd7ba;
+  
   cursor: pointer;
   line-height: 100px;
   font-size: 60px;
   transform-style: preserve-3d;
 }
 
+body{
+  text-align: center;
+}
