@@ -2,21 +2,18 @@
 
 
 /*-------------------------------- Variables --------------------------------*/
-let gameWon, spin
 
 
 /*-------------------------------- Constants Element References--------------------------------*/
-const spinButton = document.querySelectorAll('.cell')
+
 
 /*----------------------------- Event Listeners -----------------------------*/
-spinButton.addEvenListener('click', spinClicked)
-console.log(spi)
+
 
 
 /*-------------------------------- Functions --------------------------------*/
 
+function getRandomNumber() {
+  return Math.floor(Math.random() * 2) + 1;
+}
 
-
-// i need to be able to click the spin button and make the characters in each cell change by the colums they are in.
-
-//
