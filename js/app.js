@@ -15,11 +15,8 @@ button.addEventListener('click', function(event){
 
 /*-------------------------------- Functions --------------------------------*/
 
-eo
-
-emo = function getRandomNumber() {
-  
-  return Math.floor(Math.random() * emoji) + 1;
+function getRandomNumber() {
+  return Math.floor(Math.random() * 5) + 1;
 }
 getRandomNumber();
 function getElement(id) {
@@ -37,7 +34,7 @@ function spin() {
 console.log(num1)
   
 item1.innerHTML = `${num1}`;
-  item2.innerHTML = `${num2}`;
+  item2.innerHTML = `${num1}`;
   item3.innerHTML = `${num3}`;
 
   // if (num1 === num2 && num1 === num3) {
