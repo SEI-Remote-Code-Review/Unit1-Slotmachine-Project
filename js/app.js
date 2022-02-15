@@ -1,22 +1,23 @@
 /*-------------------------------- Constants --------------------------------*/
-
+const characters = ['❤️', '💰', '⚽', '💎', '🤑']
 
 /*-------------------------------- Variables --------------------------------*/
-
+characters.forEach(char => char)
 
 /*-------------------------------- Constants Element References--------------------------------*/
 button = document.querySelector('.spin')
 
 /*----------------------------- Event Listeners -----------------------------*/
 button.addEventListener('click', function(event){
-  return getRandomNumber
+  return spin()
 })
 
 
 /*-------------------------------- Functions --------------------------------*/
 
 function getRandomNumber() {
-  return Math.floor(Math.random() * 5) + 1;
+  var char = characters[Math.floor(Math.random() * characters.length)];
+  console.log(char)
 }
 getRandomNumber();
 function getElement(id) {
@@ -31,18 +32,19 @@ function spin() {
   const num1 = getRandomNumber();
   const num2 = getRandomNumber();
   const num3 = getRandomNumber();
-console.log(num1)
+
   
 item1.innerHTML = `${num1}`;
   item2.innerHTML = `${num1}`;
   item3.innerHTML = `${num3}`;
 
-  // if (num1 === num2 && num1 === num3) {
+   if (num1 === num3) {
   //     playBoing();
   //     showMessage();
   // } else {
   //     hideMessage();
   // }
+  }
 }
 spin();
 
