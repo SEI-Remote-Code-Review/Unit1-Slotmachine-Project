@@ -2,7 +2,7 @@
 const characters = ['❤️', '💰', '⚽', '💎', '🤑']
 
 /*-------------------------------- Variables --------------------------------*/
-characters.forEach(char => char)
+let char
 
 /*-------------------------------- Constants Element References--------------------------------*/
 button = document.querySelector('.spin')
@@ -17,7 +17,7 @@ button.addEventListener('click', function(event){
 
 function getRandomNumber() {
   var char = characters[Math.floor(Math.random() * characters.length)];
-  console.log(char)
+  return char
 }
 getRandomNumber();
 function getElement(id) {
