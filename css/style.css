@@ -55,4 +55,5 @@ h1{
   background: rgb(192, 116, 116);
   font-weight: 1000;
   font-style: italic;
+  border-radius: 5px;
 }
