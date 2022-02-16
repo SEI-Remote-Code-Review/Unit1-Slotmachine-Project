@@ -29,7 +29,8 @@ section{
   text-align: center;
   padding: 10px;
   font-size: 50px;
-  background-color: burlywood;
+  background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #8f878b 62%, #9B36B7 85%, #515ECF);
+  fill: #fff;
 }
 
 .spin{
@@ -48,12 +49,36 @@ h1{
   grid-row-start: 3;
   grid-row-end: span 7;
   height: 55PX;
-  justify-self: ;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
   color: darkgray;
   width: 500px;
-  background: rgb(192, 116, 116);
+  background: rgb(49, 24, 24);
   font-weight: 1000;
   font-style: italic;
   border-radius: 5px;
+  font-size: 45px;
+}
+
+#msg{
+  align-self: flex-end;
+  color: white;
+  width: 10px;
+  flex-direction: row;
+  display: flex;
+}
+
+h2{
+  grid-column-start: 3;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  grid-row-end: span 7;
+  height: 55PX;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  color: darkgray;
+  width: 500px;
+ 
+  font-weight: 1000;
+  font-style: italic;
+  border-radius: 5px;
+  font-size: 45px;
 }
