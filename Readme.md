@@ -1,11 +1,11 @@
 # SLOT MACHINE.  [PLAY GAME](https://kabzeel1.github.io/Unit1-Slotmachine-Project/)
 # slot machines history?
 Slot machine have been around for many years now, they were initally introduced in the late 1800's and played mostly in casinos and places of such.
-But since we now have the power of the web we can now make these games in our computers and play.
+But since we now have the power of the web we can make these games in our computers and play.
 
 ## how to play this game.
 
-With this game you have a chance to win 1000 dollars, this will happen everytime you mach the the characters in the board. 
+With this game you have a chance to win 1000 dollars, this will happen everytime you match the the characters in the board. 
 
 ![Play And Win](favicons/favicon_io/SLOT.png "Slot Machine")
 
