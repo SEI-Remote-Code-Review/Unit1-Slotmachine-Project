@@ -1,23 +1,14 @@
 body{
   text-align: center;
-  height: 50rem;
-  padding: 30px;
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/64/Creaci%C3%B3n_de_Ad%C3%A1n_%28Miguel_%C3%81ngel%29.jpg);
-  display: grid;
   
 }
-section{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-evenly;
-  width: 500px;
-  height: 400px;
-  top: 53%;
-  left: 50%;
-  position: absolute;
-  margin-top: -200px;
-  margin-left: -250px;
-  box-sizing: border-box;
+#slot{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 400px;
+  margin: 10px auto;
+  height: 300px;
 
   border-radius: 10px;
   background-image: url('https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg');
@@ -25,11 +16,13 @@ section{
 
 
 .item{
-  width: 80px;
-  height: 60px;
-  text-align: center;
-  padding: 10px;
-  font-size: 50px;
+  font-family: "Permanent Marker", cursive;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #ecd7ba;
+  line-height: 100px;
+  font-size: 60px;
+  justify-self: center;
   background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #8f878b 62%, #9B36B7 85%, #515ECF);
   fill: #fff;
 }
@@ -37,7 +30,7 @@ section{
 .spin{
   grid-column: 3 / span 2;
   grid-row: third-line 8;
-  width: 500px;
+  width: 300px;
   border-radius: 50px;
   font-size: 30px;
   height: 50%;
@@ -45,19 +38,14 @@ section{
 }
 
 h1{
-  grid-column-start: 3;
-  grid-column-end: span col4-start;
-  grid-row-start: 3;
-  grid-row-end: span 7;
-  height: 55PX;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-  color: darkgray;
-  width: 500px;
+
+  font-size: 100px;
+  color: #d7a62f;
+  margin: 10px auto;
   background: rgb(49, 24, 24);
   font-weight: 1000;
   font-style: italic;
   border-radius: 5px;
-  font-size: 30px;
 }
 
 #msg{
@@ -95,12 +83,3 @@ h2{
 border-radius: 2px;
 }
 
-
-@media only screen and (min-width: 768px) {
-  body {
-    text-align: center;
-    height: 50rem;
-    padding: 30px;
-    display: grid;
-  }
-}
