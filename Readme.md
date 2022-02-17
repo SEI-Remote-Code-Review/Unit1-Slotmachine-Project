@@ -14,10 +14,10 @@ This game was made by the help of the following programing tools.
 
 - ***Javascript*** : this was used to bring forth the behavior of the game.
 
-- ***HTML*** : which helped to link with all the other languages and make the compatable with the web.
+- ***HTML*** : which helped to link with all the other languages and make them compatable with the web.
 
-- ***CSS*** : Css helped with the styling of the game.
+- ***CSS*** : CSS helped with the styling of the game.
 
 ## Whats next?
 
-This is no the end of the road for this app. It is sure to be evolved and made even more exciting and even challenging, with spinning effects, bettings and AI in this soon coming future so ***PLEASE*** stay tuned.
+This is not the end of the road for this app. It is sure to be evolved and made even more exciting and challenging, with spinning effects, bettings and AI in this soon coming future so ***PLEASE*** stay tuned.
