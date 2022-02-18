@@ -1,7 +1,7 @@
 /*-------------------------------- Constants --------------------------------*/
 const characters = ['❤️', '💰', '⚽', '💎', '🤑']
 const winningMessage =  `You have won`
-
+const winVoice = new Audio('Win.mp3')
 /*-------------------------------- variables--------------------------------*/
  let char 
  let wins = 0
@@ -46,7 +46,12 @@ item1.innerHTML = `${num1}`;
 
    if (num1 === num3){
     win.innerHTML = winningMessage    
-} else {
+} if(num1 === num3){
+  winVoice.volume = .10
+  winVoice.play()
+}
+
+ else {
   win.innerHTML = ''
 }
   if (num1 == num3){
